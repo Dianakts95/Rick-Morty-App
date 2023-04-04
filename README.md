@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Rick and Morty Library App
+This is a web application based on the popular TV show "Rick and Morty" which uses the official Rick and Morty API to provide users access to a vast amount of information about the show's characters, images, locations, and episodes. The main goal of this project is to showcase my programming skills and what I've learned in the web development field.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+The app offers a library of cards displaying the different characters and their main features from the show "Rick and Morty". Users can interact with the page in various ways, including searching for a specific character using the search bar, clicking on a card to view its details, filtering characters by status, gender, and species, using the navigation bar to sort the cards by characters, episodes, and locations, or simply browsing through all the characters using the pagination bar at the bottom of the page.
 
-## Available Scripts
+Technologies Used
+This app was built using:
 
-In the project directory, you can run:
+React
+React Hooks [useState, useEffect]
+Fetch API
+Bootstrap and SASS for the page design
+React Paginate library to create the pagination bar
+React Router to configure routes and enable dynamic navigation
+Installation and Usage
 
-### `npm start`
+To install and run this app on your local machine:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone this repository onto your local machine using git clone https://github.com/[username]/rick-and-morty-library-app.git or download the ZIP file directly from the repository.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In your terminal, navigate to the project folder and run npm install to install the necessary dependencies.
 
-### `npm test`
+Run npm start to start the application. The app will open automatically in your browser at http://localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contribution
+Feel free to contribute to this project by creating a pull request or submitting an issue. Suggestions and improvements are always welcome.
 
-### `npm run build`
+Credits
+The Rick and Morty API
+React documentation
+React Router documentation
+React Paginate documentation
+Bootstrap documentation
+SASS documentation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is licensed under the MIT License.
