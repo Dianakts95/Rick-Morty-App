@@ -3,15 +3,13 @@ import React from 'react'
 const FilterBTN = ({name, index, items, task, setPageNumber}) => {
   return (
   <div>
-     {/* <style jsx ="true"> */}
-      <style jsx>
-      {/* arreglar 2:30 esta parte del attach el color en el filtro */}
-        {`  
-       
-           .x: checked + label {
-             background-color: #0dcaf0;
-            
-             }
+     <style jsx ="true">
+       {`   
+          .form-check-input:checked + label {
+            background-color: #0DCAF0;
+            color: black ;
+          
+           }
 
               input[type="radio"]{
               display:none;
@@ -20,7 +18,7 @@ const FilterBTN = ({name, index, items, task, setPageNumber}) => {
         `}
       </style>
 
-    <div className="form-check x">
+    <div className="form-check ">
 
   <input 
   onClick={()=>{
@@ -31,11 +29,11 @@ const FilterBTN = ({name, index, items, task, setPageNumber}) => {
   className="form-check-input" 
   type="radio" 
   name={name} 
-  id={`${name}-${index}`}
+  id= {`${name}-${index}`}
   
    />
-    {/* className=""                         htmlFor = */}
-  <label class="btn btn-outline-primary my-1" for={`${name}-${index}`}>
+                  
+  <label className="btn btn-outline-info my-1" htmlFor={`${name}-${index}`}>
     {items}
     </label>
 </div>
