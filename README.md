@@ -1,4 +1,6 @@
-# [Rick and Morty App] (https://rick-morty-app-ashy.vercel.app/)
+# Rick and Morty App 
+
+https://rick-morty-app-ashy.vercel.app/
 
 This is a web application based on the popular TV show ["The Rick and Morty API"](https://rickandmortyapi.com/) which uses the official Rick and Morty API to provide users access to a vast amount of information about the show's characters, images, locations, and episodes. The main goal of this project is to showcase my programming skills and what I've learned in the web development field.
 
