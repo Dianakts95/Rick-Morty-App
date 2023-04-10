@@ -19,19 +19,17 @@ const Navbar = () => {
     aria-expanded="false" 
     aria-label="Toggle navigation">
 
-     <style jsx="true" >
-        {`
-         button[ aria-expanded="false"]> .close{
-           display:none;
-         }
+   
+     <style jsx="true">{`
+          button[aria-expanded="false"] > .close {
+            display: none;
+          }
+          button[aria-expanded="true"] > .open {
+            display: none;
+          }
+        `}</style>
 
-         button[ aria-expanded="true"]> .open{
-          display:none;
-        }
-
-        `}
-
-      </style>
+   
 
       {/* <span className="navbar-toggler-icon"></span> */}
       <i className="bi bi-list open fw-bold text-dark"></i>
@@ -54,4 +52,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

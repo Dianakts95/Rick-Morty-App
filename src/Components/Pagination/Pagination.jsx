@@ -54,4 +54,4 @@ const Pagination = ({info, pageNumber , setPageNumber}) => {
 // --bs-pagination-active-border-color: #0d6efd;
 
 
-export default Pagination
+export default Pagination;

@@ -2,6 +2,7 @@ import React, {useState , useEffect} from "react";
 import Cards from "../Components/Cards/Cards";
 import InputGroup from "../Components/Filters/Category/InputGroup";
 
+
 const Location = () => {
 
     const [id, setID] = useState(1);
@@ -28,6 +29,8 @@ const Location = () => {
 
   return (
     <div className="container">
+
+ 
 
     <div className="row mb-4">
         <h1 className="text-center mb-3">

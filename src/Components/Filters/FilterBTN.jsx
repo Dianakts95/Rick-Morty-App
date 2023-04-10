@@ -43,4 +43,4 @@ const FilterBTN = ({name, index, items, task, setPageNumber}) => {
   );
 };
 
-export default FilterBTN 
+export default FilterBTN;

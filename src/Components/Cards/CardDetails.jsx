@@ -68,4 +68,4 @@ const CardDetails = () => {
   )
 }
 
-export default CardDetails
+export default CardDetails;

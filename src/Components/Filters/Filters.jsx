@@ -39,4 +39,4 @@ const Filters = ({ setStatus, setPageNumber, setGender, setSpecies}) => {
   )
 }
 
-export default Filters
+export default Filters;
