@@ -1,4 +1,4 @@
-# Rick and Morty App 
+# Rick and Morty App 🧪💥
 
 https://rick-morty-app-ashy.vercel.app/
 
@@ -18,7 +18,7 @@ This app was built using:
 * React Router to configure routes and enable dynamic navigation
 * Installation and Usage
 
-## To install and run this app on your local machine:
+## ▶️ To install and run this app on your local machine:
 
 Clone this repository onto your local machine using git clone https://github.com/[username]/rick-and-morty-library-app.git or download the ZIP file directly from the repository.
 
@@ -29,7 +29,7 @@ Run npm start to start the application. The app will open automatically in your 
 Contribution
 Feel free to contribute to this project by creating a pull request or submitting an issue. Suggestions and improvements are always welcome.
 
-## Credits
+## Credits 🏆
 The Rick and Morty API
 React documentation
 React Router documentation
