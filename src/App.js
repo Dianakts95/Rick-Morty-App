@@ -58,7 +58,7 @@ const Home = () => {
         Rick & Morty <span className="text-success black-text-shadow">App</span>
       </h1>
       
-      <h1 className="text-center mb-4">Characters</h1>
+      <h1 className="text-center mb-4"><span className="bg-white">Characters</span></h1>
 
       <Search setPageNumber={setPageNumber} setSearch={setSearch} />
 

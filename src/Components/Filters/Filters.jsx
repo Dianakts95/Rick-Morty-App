@@ -15,15 +15,15 @@ const Filters = ({ setStatus, setPageNumber, setGender, setSpecies}) => {
  }
   return (
     <div className="col-lg-3 col-12 mb-5">
-      <div className="text-center fw-bold fs-4 mb-2">Filters</div>
-      <div
+      <div className="text-center"> <span className="bg-white fw-bold fs-4 mb-2">Filters</span></div>
+      <div className="text-center"
       onClick={clear}
-      style={{cursor:"pointer"}}
-      className="text-center text-black fw-bold text-decoration-underline mb-4"
+      style={{cursor:"pointer"}}>
+      <span  className="text-black bg-white fw-bold text-decoration-underline mb-4"
       >
          Clear Filters
          
-      </div>
+      </span> </div>
 
       <div 
       className="accordion " 
