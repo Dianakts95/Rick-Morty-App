@@ -10,18 +10,20 @@ const Gender = ({setPageNumber, setGender}) => {
     <div className="accordion-item">
     <h2 className="accordion-header">
       <button 
-      className="accordion-button collapsed" 
+      className="accordion-button collapsed text-white bg-success" 
       type="button" 
       data-bs-toggle="collapse" 
-      data-bs-target="#collapseOne" 
+      data-bs-target="#collapseTwo" 
       aria-expanded="false" 
-      aria-controls="collapseOne"
+      aria-controls="collapseTwo"
       >
        Gender
        
       </button>
     </h2>
-    <div id="collapseOne" className="accordion-collapse collapse " data-bs-parent="#accordionExample">
+    <div id="collapseTwo" 
+    className="accordion-collapse collapse " 
+    data-bs-parent="#accordionExample">
       <div className="accordion-body">
 
         {genders.map(( items, index)=>(

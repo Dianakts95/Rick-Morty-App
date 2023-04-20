@@ -54,8 +54,8 @@ const Home = () => {
 
   return (
     <div className="App">
-      <h1 className="text-center font my-4">
-        Rick & Morty <span className="text-success">App</span>
+      <h1 className="text-center green-text-shadow font my-4">
+        Rick & Morty <span className="text-success black-text-shadow">App</span>
       </h1>
       
       <h1 className="text-center mb-4">Characters</h1>

@@ -5,9 +5,9 @@ import  "../../App.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light bg-body-tertiary ">
   <div className="container-fluid">
-  <Link to="/" className="fs-3 ubuntu navbar-brand ">
+  <Link to="/" className="fs-3 navbar-brand ">
         Rick & Morty <span className="text-success">App</span>
       </Link>
     <button 
@@ -44,6 +44,7 @@ const Navbar = () => {
         <NavLink activeclassname="active" to ="/" className="nav-link" >Characters</NavLink>
         <NavLink to ="/episodes" className="nav-link" >Episodes</NavLink>
         <NavLink to ="/location" className="nav-link" >Location</NavLink>
+        
        
       </div>
     </div>

@@ -6,7 +6,7 @@ const FilterBTN = ({name, index, items, task, setPageNumber}) => {
      <style jsx ="true">
        {`   
           .form-check-input:checked + label {
-            background-color: #0DCAF0;
+            background-color: #198754;
             color: black ;
           
            }
@@ -33,7 +33,7 @@ const FilterBTN = ({name, index, items, task, setPageNumber}) => {
   
    />
                   
-  <label className="btn btn-outline-info my-1" htmlFor={`${name}-${index}`}>
+  <label className="btn btn-outline-success  my-1" htmlFor={`${name}-${index}`}>
     {items}
     </label>
 </div>
