@@ -32,22 +32,22 @@ const Episodes = () => {
 
 
 
-    <div className="row mb-4">
+    <div className="row my-2">
     
-        <h1 className="text-center mb-3">
-            Episode: {" "}
-            <span className="text-success">
+        <h1 className="text-center ">
+        <span className=" bg-white">Episode</span>: {" "}
+            <span className="text-success bg-white">
             { name === ""? "Unknown": name} </span>
         </h1>
         <h5 className="text-center">
-            Air Date {air_date === ""? "Unknown": air_date}
+        <span className=" bg-white"> Air Date {air_date === ""? "Unknown": air_date}</span>
         </h5>
         
     </div>
     <div className="row">
 
     <div className="col-lg-3 col-12">
-        <h4 className="text-center mb-4">Pick Episodes</h4>
+        <h4 className="text-center mb-4">  <span className=" bg-white"> Pick Episodes </span> </h4>
         <InputGroup setID={setID} name="Episode" total={51}/>
         </div>
     <div className="col-lg-8 col-12"> 
