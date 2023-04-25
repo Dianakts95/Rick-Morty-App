@@ -20,7 +20,7 @@ const CardDetails = () => {
   return (
     <div className="container d-flex justify-content-center">
       <div className="d-flex flex-column gap-3">
-       <h1 className="text-center">{name}</h1>
+       <h1 className="text-center my-5"> <span className="bg-white "> {name} </span></h1>
        <img src={image} alt="" className="img-fluid" />
 
        {(()=>{
@@ -41,7 +41,7 @@ const CardDetails = () => {
                         }
                     })()}
 
-       <div className="content">
+       <div className="content bg-white">
         <div className="">
           <span className="fw-bold">Gender: </span>
            {" "}{gender}
