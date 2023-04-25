@@ -1,0 +1,21 @@
+.btn {
+    background-color:#198754;
+    box-shadow: 1px 3px 9px rgba($color: #000000, $alpha:1);
+    
+}
+.pagelink{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border: solid 3px #198754;
+  }
+.pagelink:hover{
+    background-color:#198754;
+    color:white;
+    border: solid 3px white;
+}
+
+.pageitem{
+      background-color:  #cb2121;
+
+    }

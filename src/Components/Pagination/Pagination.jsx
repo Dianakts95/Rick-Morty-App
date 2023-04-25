@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import ReactPaginate from "react-paginate";
+import styles from "../Pagination/Pagination.module.scss"
 
 const Pagination = ({info, pageNumber , setPageNumber}) => {
 
@@ -23,21 +24,21 @@ const Pagination = ({info, pageNumber , setPageNumber}) => {
       }
       .pagination{
         font-size: 14px;
-      }
-        
+      }      
 
       `}
     </style>
 
     <ReactPaginate 
+    
     className="pagination justify-content-center gap-1 my-4"
     forcePage={pageNumber === 1? 0 : pageNumber -1}
     nextLabel="Next"
     previousLabel="Prev"    
-    nextClassName="btn  next  "
-    previousClassName="btn  prev  "
-    pageClassName="page-item "
-    pageLinkClassName="page-link "
+    nextClassName={`${styles.btn } btn next ` }
+    previousClassName={`${styles.btn } btn prev ` }
+    pageClassName= "page-item" 
+    pageLinkClassName={`${styles.pagelink } page-link`}
     marginPagesDisplayed={width < 576 ? 1:2 }
     pageRangeDisplayed={width < 576 ? 1:2 }
     ativeclassname ="active "
