@@ -1,5 +1,6 @@
 import React from "react";
 import FilterBTN from "../FilterBTN";
+import styles from "../Category/Filters.module.scss"
 
 const Species = ({setSpecies , setPageNumber}) => {
   const species = ["Human", "Alien", "Humanoid", "Poopybutthole", "Mythological", "Unknown", "Animal", "Disease", "Robot", "Cronenberg", "Planet"];
@@ -7,7 +8,7 @@ const Species = ({setSpecies , setPageNumber}) => {
     <div className="accordion-item">
     <h2 className="accordion-header">
       <button 
-      className="accordion-button collapsed text-white bg-success" 
+      className={`${styles.accordionbutton} accordion-button collapsed text-white bg-success`} 
       type="button" 
       data-bs-toggle="collapse" 
       data-bs-target="#collapseThree" 

@@ -1,5 +1,6 @@
 import React from "react";
 import FilterBTN from "../FilterBTN";
+import styles from "../Category/Filters.module.scss";
 
 
 
@@ -10,7 +11,7 @@ const Status = ({setStatus, setPageNumber}) => {
     <h2 className="accordion-header">
 
      <button 
-      className="accordion-button collapsed text-white bg-success" 
+      className={`${styles.accordionbutton} accordion-button collapsed text-white bg-success`} 
    
       type="button" 
       data-bs-toggle="collapse" 

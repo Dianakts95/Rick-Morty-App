@@ -35,7 +35,11 @@ const Filters = ({ setStatus, setPageNumber, setGender, setSpecies}) => {
       <Gender  setGender={setGender} setPageNumber={setPageNumber} />
       <Species setSpecies={setSpecies} setPageNumber={setPageNumber}   />
       
-       
+      {/* //accordion-button:focus 
+ 
+ // border-color: var(--bs-accordion-btn-focus-border-color);
+  /* outline: 0; */
+  /* box-shadow: var(--bs-accordion-btn-focus-box-shadow); */}
          
          
       </div>

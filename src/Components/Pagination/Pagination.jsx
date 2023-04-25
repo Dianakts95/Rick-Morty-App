@@ -24,6 +24,7 @@ const Pagination = ({info, pageNumber , setPageNumber}) => {
       .pagination{
         font-size: 14px;
       }
+        
 
       `}
     </style>
@@ -33,13 +34,13 @@ const Pagination = ({info, pageNumber , setPageNumber}) => {
     forcePage={pageNumber === 1? 0 : pageNumber -1}
     nextLabel="Next"
     previousLabel="Prev"    
-    nextClassName="btn btn-info next"
-    previousClassName="btn btn-info prev"
-    pageClassName="page-item"
-    pageLinkClassName="page-link"
+    nextClassName="btn  next  "
+    previousClassName="btn  prev  "
+    pageClassName="page-item "
+    pageLinkClassName="page-link "
     marginPagesDisplayed={width < 576 ? 1:2 }
     pageRangeDisplayed={width < 576 ? 1:2 }
-    activeclassname="active"
+    ativeclassname ="active "
     
     onPageChange={(data)=>{
       setPageNumber(data.selected + 1)
@@ -52,6 +53,8 @@ const Pagination = ({info, pageNumber , setPageNumber}) => {
 // --bs-pagination-color: #0dcaf0;
 // --bs-pagination-active-bg: #0dcaf0;
 // --bs-pagination-active-border-color: #0d6efd;
+
+
 
 
 export default Pagination;
